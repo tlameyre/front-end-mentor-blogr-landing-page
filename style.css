@@ -1,0 +1,46 @@
+@import url('_buttons.css');
+@import url('_navbar.css');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  position: relative;
+  height: 600px;
+  background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  border-bottom-left-radius: 150px;
+  font-family: 'Overpass', sans-serif;
+  overflow: hidden;
+}
+
+.logo__banner {
+  left: -17rem;
+  position: absolute;
+  top: -70rem;
+  width: 171rem;
+}
+
+.text__banner {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner__links, .nav__links{
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+  font-family: 'Ubuntu';
+}

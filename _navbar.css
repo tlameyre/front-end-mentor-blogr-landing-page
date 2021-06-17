@@ -1,0 +1,67 @@
+.nav__menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+  padding: 16px 16%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav__item {
+  margin-left: 32px;
+  padding: 32px 8px;
+  position: relative;
+}
+
+.nav__item img, .nav__item span  {
+  transition: 0.3s ease;
+}
+
+.dropdown__content {
+  background-color: white;
+  border-radius: 8px;
+  left: -1px;
+  max-height: 0;
+  overflow: hidden;
+  position: absolute;
+  padding: 0 24px;
+  top: 90%;
+  width: 180px;
+  transition: max-height 0.3s ease;
+}
+
+.dropdown__content li {
+  margin: 16px;
+}
+
+.dropdown__content a {
+  color: hsl(208, 49%, 24%);
+  display: inline-block;
+  padding: 8px 0;
+  transition: 0.3s ease;
+}
+
+.dropdown__content a:hover {
+  font-weight: bold;
+}
+
+.nav__item:hover > span{
+  text-decoration: underline;
+}
+
+.nav__item:hover >  img {
+  transform: rotate(180deg);
+}
+
+.nav__item:hover > .dropdown__content {
+  max-height: 300px;
+}

@@ -1,0 +1,43 @@
+.login__btn {
+  color: #fff;
+  padding: 12px 16px;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+.sign__btn {
+  color: hsl(356, 100%, 66%);
+  background: #fff;
+  padding: 12px 32px;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+.start__btn {
+  color: hsl(356, 100%, 66%);
+  background: #fff;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+.learn__btn {
+  color: #fff;
+  border: 1px solid white;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+.cta:hover {
+  background: hsl(355, 100%, 74%);
+  color: #fff;
+}
+
+.learn__btn:hover {
+  background: #fff;
+  color: hsl(355, 100%, 74%);
+}
