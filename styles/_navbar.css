@@ -3,13 +3,14 @@
   list-style-type: none;
   justify-content: center;
   align-items: center;
+  font-weight: 600;
 }
 
 header {
   font-family: 'Ubuntu', sans-serif;
   color: #fff;
   padding: 16px 16%;
-  height: 20%;
+  height: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
