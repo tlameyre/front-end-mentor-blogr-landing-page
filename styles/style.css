@@ -5,6 +5,7 @@
 @import url('_banner.css');
 @import url('_content.css');
 @import url('_footer.css');
+@import url('_mobile-part.css');
 
 * {
   margin: 0;

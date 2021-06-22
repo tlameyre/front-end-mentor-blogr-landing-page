@@ -33,3 +33,13 @@
  .paragraph p {
    color: hsl(240, 1%, 52%);
  }
+
+ #content2 {
+   height: 48em;
+ }
+
+ #desktop-img {
+  position: relative;
+  top: -49em;
+  right: 26em;
+}
